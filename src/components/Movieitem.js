@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Movieitem() {
+function Movieitem({item}) {
   return (
   <div>
-    <h1>movieitem</h1>
+    <h1>{item.name}</h1>
   </div>
-  );
+  )
 }
 
 export default Movieitem;
